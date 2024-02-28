@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Комп'ютерій ➤ Інтернет-магазин комп'ютерної техніки</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="path/to/sweet-alert.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo/brand.png" type="image/png">
+
+
+</head>
+
+<body>
+    <header>
+        <a href="Index.html" class="logo"><i class="fas-fa-untensils">Комп'ютерій</i></a>
+        <nav class="navbar">
+            <a class="active" href="Index.html">Головна</a>
+            <div class="dropdown">
+                <button class="dropbtn">Каталог</button>
+                <div class="dropdown-content">
+                    <a href="comp.html">Комп’ютери</a>
+                    <a href="nout.html">Ноутбуки</a>
+                    <a href="perifer.html">Периферія</a>
+                    <a href="moni.html">Монітори</a>
+                    <a href="tradein.html">Послуга Trade-In</a>
+
+
+                </div>
+            </div>
+            <a href="#item">Акції</a>
+            <a href="#aboutus">Про нас</a>
+            <a href="tradein.html">Trade-In</a>
+            <a href="garant.html">Гарантії</a>
+
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="Пошук" name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+
+    <main style="background-color: #ffffff;">
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <section class="item" id="item">
+            <h3 class="sub-heading text-left" style="font-size: 42px; text-align: left;">Комп'ютери</h3>
+            <br>
+            <div class="box-container">
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/pc/boxed-gaming-rtx3060-pro-bgp-10400n3060-16s500-black.png" alt=""
+                        style="height: 235px;">
+                    <h3>Ігровий Комп'ютер boxed gaming rtx3060</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="price">27800</span> <span class="ms-4" id="pricetwo">26000₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="11" data-sb-product-name="boxed-gaming-rtx3060"
+                        data-sb-product-price="26000" data-sb-product-quantity="1"
+                        data-sb-product-img="img/pc/boxed-gaming-rtx3060-pro-bgp-10400n3060-16s500-black.png">Додати до
+                        кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/pc/boxed-gaming-rtx3060ti-pro-bgp-5600n3060ti-16s1tbk-black.png" alt=""
+                        style="height: 235px;">
+                    <h3>Ігровий Комп'ютер boxing gaming rtx3060ti</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="pricetwo">29000₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="12" data-sb-product-name="boxed-gaming-rtx3060ti"
+                        data-sb-product-price="29000" data-sb-product-quantity="1"
+                        data-sb-product-img="img/pc/boxed-gaming-rtx3060ti-pro-bgp-5600n3060ti-16s1tbk-black.png">Додати
+                        до кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/pc/evolve-gamepart-gold-6h-evgp-g6hi1350n407-d432s1tbk-black.jpg" alt=""
+                        style="height: 235px;">
+                    <h3>Ігровий Комп'ютер evolve gamepart gold 6h</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="pricetwo">27999₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="13" data-sb-product-name="evolve-gamepart-gold-6h"
+                        data-sb-product-price="27999" data-sb-product-quantity="1"
+                        data-sb-product-img="img/pc/evolve-gamepart-gold-6h-evgp-g6hi1350n407-d432s1tbk-black.jpg">Додати
+                        до кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/pc/evolve-gamepart-platinum-7h-evgp-p7hi1360kfn407ti-d532s1tbk-black.png" alt=""
+                        style="height: 235px;">
+                    <h3>Ігровий Комп'ютер evolve gamepart platinum 7h</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="price">23000₴</span> <span class="ms-4" id="pricetwo">18999₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="14" data-sb-product-name="evolve-gamepart-platinum-7h"
+                        data-sb-product-price="18999" data-sb-product-quantity="1"
+                        data-sb-product-img="img/pc/evolve-gamepart-platinum-7h-evgp-p7hi1360kfn407ti-d532s1tbk-black.png">Додати
+                        до кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/pc/evolve-optipart-gold-3b-evop-g3br560n306ti-16s500gbk-black.png" alt=""
+                        style="height: 235px;">
+                    <h3>Ігровий Комп'ютер evolve optipart gold s3b</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="pricetwo">39999₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="15" data-sb-product-name="evolve-optipart-gold-3b"
+                        data-sb-product-price="39999" data-sb-product-quantity="1"
+                        data-sb-product-img="img/pc/evolve-optipart-gold-3b-evop-g3br560n306ti-16s500gbk-black.png">Додати
+                        до кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/pc/evolve-optipart-gold-h-evop-ghi1240fn306-d416s1tbk-black.png" alt=""
+                        style="height: 235px;">
+                    <h3>Ігровий Комп'ютер evolve optipart gold j-11</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="pricetwo">42000₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="16" data-sb-product-name="evolve-optipart-gold-h"
+                        data-sb-product-price="42000" data-sb-product-quantity="1"
+                        data-sb-product-img="img/pc/evolve-optipart-gold-h-evop-ghi1240fn306-d416s1tbk-black.png">Додати
+                        до кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/pc/evolve-ultrapart-gold-7b-evup-g7bi1370kfn407ti-d532s1twh-white.jpg" alt=""
+                        style="height: 235px;">
+                    <h3 class="txt">Ігровий Комп'ютер evolve ultrapart j-8a</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="pricetwo">79999₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="17" data-sb-product-name="evolve-ultrapart"
+                        data-sb-product-price="79999" data-sb-product-quantity="1"
+                        data-sb-product-img="img/pc/evolve-ultrapart-gold-7b-evup-g7bi1370kfn407ti-d532s1twh-white.jpg">Додати
+                        до кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/pc/evolve-specialpart-gaming-pc-evsp-gpi1350n407-d432s1tbk-black.png" alt=""
+                        style="height: 235px;">
+                    <h3>Ігровий Комп'ютер evolve specialpart gaming pc f-16</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="pricetwo">37000₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="18"
+                        data-sb-product-name="Комп'ютер evolve-specialpart-gaming-pc" data-sb-product-price="37000"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/pc/evolve-specialpart-gaming-pc-evsp-gpi1350n407-d432s1tbk-black.png">Додати
+                        до кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/pc/hexo-gaming-rtx3050-base-hgb-10400fn3050-16s500bk-black.png" alt=""
+                        style="height: 235px;">
+                    <h3>Ігровий Комп'ютер hexo gaming rtx3050-harrier</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="pricetwo">68999₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="19"
+                        data-sb-product-name="Комп'ютер hexo-gaming-rtx3050-base" data-sb-product-price="68999"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/pc/hexo-gaming-rtx3050-base-hgb-10400fn3050-16s500bk-black.png">Додати
+                        до кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/pc/hexo-gaming-rtx3060-base-hgb-10400fn3060-16s500wh-white.png" alt=""
+                        style="height: 235px;">
+                    <h3>Ігровий Комп'ютер hexo-gaming-rtx3060-base</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="pricetwo">49000₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="20" data-sb-product-name="ютер hexo-gaming-rtx3060-base"
+                        data-sb-product-price="49999" data-sb-product-quantity="1"
+                        data-sb-product-img="img/pc/hexo-gaming-rtx3060-base-hgb-10400fn3060-16s500wh-white.png">Додати
+                        до кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/pc/hexo-gaming-rtx3060-base-hgb-5500n3060-16s500bk-black.png" alt=""
+                        style="height: 235px;">
+                    <h3>Ігровий Комп'ютер hexo-gaming-rtx3060-base-hgb</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="pricetwo">51000₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="21" data-sb-product-name="hexo-gaming-rtx3060-base-hgb"
+                        data-sb-product-price="51000" data-sb-product-quantity="1"
+                        data-sb-product-img="img/pc/hexo-gaming-rtx3060-base-hgb-5500n3060-16s500bk-black.png">Додати до
+                        кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/pc/hexo-gaming-rtx3060ti-base-hgb-11400fn3060ti-16s500bk-black.png" alt=""
+                        style="height: 235px;">
+                    <h3>Ігровий Комп’ютер hexo-gaming-rtx3060ti</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="pricetwo">43999₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="22" data-sb-product-name="Комп’ютер hexo-gaming-rtx3060ti"
+                        data-sb-product-price="43999" data-sb-product-quantity="1"
+                        data-sb-product-img="img/pc/hexo-gaming-rtx3060ti-base-hgb-11400fn3060ti-16s500bk-black.png">Додати
+                        до кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/pc/hexo-gaming-rtx4070-base-hgb-13400fn4070-32s1tbk-black.png" alt=""
+                        style="height: 235px;">
+                    <h3>Ігровий Комп'ютер hexo-gaming-rtx4070</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="pricetwo">56000₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="23" data-sb-product-name="hexo-gaming-rtx4070"
+                        data-sb-product-price="56000" data-sb-product-quantity="1"
+                        data-sb-product-img="img/pc/hexo-gaming-rtx4070-base-hgb-13400fn4070-32s1tbk-black.png">Додати
+                        до кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/pc/hexo-office-gv7-base-hob-5600g-16s480wh-white.png" alt="" style="height: 235px;">
+                    <h3>Комп'ютер офісний hexo office gv7</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="pricetwo">21000₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="24" data-sb-product-name="Комп'ютер hexo-office-gv7"
+                        data-sb-product-price="21000" data-sb-product-quantity="1"
+                        data-sb-product-img="img/pc/hexo-office-gv7-base-hob-5600g-16s480wh-white.png">Додати до
+                        кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/pc/evolve-specialpart-hyperion-eva-evsp-evai1490kfn4090-d532s2tbk-black.png" alt=""
+                        style="height: 235px;">
+                    <h3>Комп'ютер SpecialSerial "Hyperion"</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="pricetwo">129000₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="25"
+                        data-sb-product-name="Комп'ютер evolve-specialpart-hyperion" data-sb-product-price="129000"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/pc/evolve-specialpart-hyperion-eva-evsp-evai1490kfn4090-d532s2tbk-black.png">Додати
+                        до кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/pc/evolve-specialpart-samurai-v2-evsp-sv2i114fn306-16s500gbk-black.png" alt=""
+                        style="height: 235px;">
+                    <h3>Комп'ютер SpecialSerial "Samurai V2"</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="pricetwo">59999₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="26" data-sb-product-name="evolve-specialpart-samurai-v2"
+                        data-sb-product-price="59999" data-sb-product-quantity="1"
+                        data-sb-product-img="img/pc/evolve-specialpart-samurai-v2-evsp-sv2i114fn306-16s500gbk-black.png">Додати
+                        до кошику</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer style="background-color: rgb(44, 44, 44);">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-3 mt-3">
+                    <div class="container"><img src="img/logo/Комп’ютерій.png" alt="brand" id="brd">
+                    </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <ul class="kont" style="color: rgb(231, 230, 230); font-size: 14px;"> Режим роботи
+                        <li class="kont" style="list-style-type: ' ' ;"> Понеділок - П'ятниця: 9:00-20:00</li>
+                        <li class="kont" style="list-style-type: ' ';"> Субота - Неділя: 10:00 - 20:00</li>
+                        <hr style="width: 75%;">
+                        <p>Номера для зв'язку</p>
+                        <li style="list-style-type: none;">+380630134116</li>
+                        <li style="list-style-type: none;">+380068283863</li>
+                        <li style="list-style-type: none;">+380368238284</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <ul class="kont" style="color: rgb(231, 230, 230); font-size: 14px;"> Покупцям
+                        <a href="dost.html" style="text-decoration: none; color: rgb(231,230,230);">
+                            <li class="kont" style="list-style-type: ' ' ; padding: 3px;">Доставка</li>
+                        </a>
+                        <a href="opl.html" style="text-decoration: none; color: rgb(231,230,230);">
+                            <li class="kont" style="list-style-type: ' '; padding: 3px;">Оплата</li>
+                        </a>
+                        <a href="garant.html" style="text-decoration: none; color: rgb(231,230,230);">
+                            <li class="kont" style="list-style-type: ' ' ; padding: 3px;">Гарантії</li>
+                        </a>
+                        <a href="garant.html" style="text-decoration: none; color: rgb(231,230,230);">
+                            <li class="kont" style="list-style-type: ' '; padding: 3px;">Політика конфіденційності</li>
+                        </a>
+                        <a href="aboutus.html" style="text-decoration: none; color: rgb(231,230,230);">
+                            <li class="kont" style="list-style-type: ' ' ; padding: 3px;">Про нас</li>
+                        </a>
+                        <a href="" style="text-decoration: none; color: rgb(231,230,230);">
+                            <li class="kont" style="list-style-type: ' '; padding: 3px;">Контакти</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <ul class="kont" style="color: rgb(231, 230, 230); font-size: 14px;"> Про компанію
+                        <a href="#item" style="text-decoration: none; color: rgb(231,230,230);">
+                            <li class="kont" style="list-style-type: ' ' ; padding: 3px;"> Акції</li>
+                        </a>
+                        <a href="aboutus.html" style="text-decoration: none;  color: rgb(231,230,230);">
+                            <li class="kont" style="list-style-type: ' '; padding: 3px;"> Про нас</li>
+                        </a>
+                        <a href="" style="text-decoration: none; color: rgb(231,230,230);">
+                            <li class="kont" style="list-style-type: ' '; padding: 3px;">Контакти</li>
+                        </a>
+                        <a href="tradein.html" style="text-decoration: none; color: rgb(231,230,230);">
+                            <li class="kont" style="list-style-type: ' '; padding: 3px;"> Trade-In</li>
+                        </a>
+                    </ul>
+                </div>
+                <hr style="color: rgb(231,230,230);">
+                <div class="container">
+                    <div class="row">
+                        <div class="content col-md-6">
+                            <h4 class="mt-5 " style="font-size: 26px; color: rgb(231,230,230);">Шоу-рум в Запоріжжі <br>
+                                <h4 style="color: rgb(231,230,230);">вулиця Святого Миколая, 27</h4>
+                                </h3>
+                        </div>
+                        <iframe class="col-md-6"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d665.7991388665891!2d35.17922492942!3d47.80903756704218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc5e6d70840259%3A0x8f3c10c0b4163632!2z0LLRg9C70LjRhtGPINCh0LLRj9GC0L7Qs9C-INCc0LjQutC-0LvQsNGPLCAyNywg0JfQsNC_0L7RgNGW0LbQttGPLCDQl9Cw0L_QvtGA0ZbQt9GM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNjkwMDA!5e1!3m2!1suk!2sua!4v1702044673318!5m2!1suk!2sua"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="container">
+                        <p class="text-sm-center mt-4" style="font-size: 14px; color: rgb(150, 151, 151);">© Комп’ютерій
+                            2022-2023 |
+                            Всі права захищенні © 2023</p>
+                    </div>
+                </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="JS.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="smartbasket/css/smartbasket.min.css">
+
+    <div class="smart-basket__wrapper"></div>
+
+    <script src="./smartbasket/js/smartbasket.min.js"></script>
+
+    <script>
+        $(function () {
+            $('.smart-basket__wrapper').smbasket({
+                productElement: 'box',
+                buttonAddToBasket: 'btn',
+                productPrice: 'product__price-number',
+                productSize: 'product__size-element',
+
+                productQuantityWrapper: 'product__quantity',
+                smartBasketMinArea: 'fa-shopping-cart',
+                countryCode: '+380',
+                smartBasketCurrency: '₴',
+                smartBasketMinIconPath: './smartbasket/img/shopping-basket-wight.svg',
+
+                agreement: {
+                    isRequired: true,
+                    isChecked: true,
+                    isLink: 'privacy.html',
+                },
+                nameIsRequired: false,
+            });
+        });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>var swiper = new Swiper(".home-slider", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 7500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            loop: true
+        });</script>
+
+
+    <script>
+        const TOKEN = "6659307546:AAHHXS2_pGffMav_LyBIKp324gzdPzFtVL4";
+        const CHAT_ID = "-1002003381953";
+        const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+
+        document.getElementById('tg').addEventListener('submit', function (e) {
+
+            e.preventDefault();
+            let message = `<b>Заявка з сайту!</b>\n`;
+            message += `<b>Ім'я відправника:</b> ${this.name.value}\n`
+            message += `<b>Номер телефону:</b> ${this.number.value}\n`
+            message += `<b>Електронна пошта:</b> ${this.email.value}\n`
+            message += `<b>Текст повідомлення:</b> ${this.text.value}\n`
+
+
+            axios.post(URI_API, {
+                chat_id: CHAT_ID,
+                parse_mode: `html`,
+                text: message
+            })
+        })
+    </script>
+
+
+    <div id="back_to_top" class="back-to-top">
+        <svg xmlns="http://www.w3.org/2000/svg" style="transform: rotate(270deg);" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z" />
+        </svg>
+        <script>myfunc();</script>
+</body>
+
+</html>

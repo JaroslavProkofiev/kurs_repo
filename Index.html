@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Комп'ютерій ➤ Інтернет-магазин комп'ютерної техніки</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="path/to/sweet-alert.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo/brand.png" type="image/png">
+
+
+</head>
+
+<body>
+    <header>
+        <a href="Index.html" class="logo"><i class="fas-fa-untensils">Комп'ютерій</i></a>
+        <nav class="navbar">
+            <a class="active" href="Index.html">Головна</a>
+            <div class="dropdown">
+                <button class="dropbtn">Каталог</button>
+                <div class="dropdown-content">
+                    <a href="comp.html">Комп’ютери</a>
+                    <a href="nout.html">Ноутбуки</a>
+                    <a href="perifer.html">Периферія</a>
+                    <a href="moni.html">Монітори</a>
+                    <a href="tradein.html">Послуга Trade-In</a>
+                </div>
+                
+            </div>
+            <a href="#item">Акції</a>
+            <a href="#aboutus">Про нас</a>
+            <a href="tradein.html">Trade-In</a>
+            <a href="garant.html">Гарантії</a>
+
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="Пошук" name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+
+    <main style="background-color: #ffffff;">
+        <br>
+        <br>
+        <br>
+        <section class="home" id="home">
+            <div class="swiper home-slider mt-2">
+                <div class="swiper-wrapper wrapper">
+                    <div class="swiper-slide slide">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img id="mainphoto" src="img/main/banner_new_ukr_3185.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="row">
+                            <div class="col">
+                                <img id="mainphoto" src="img/main/akcija_ua (1).png" alt="" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="row">
+                            <div class="col">
+                                <img id="mainphoto" src="img/main/akcija_ua.jpg" alt="" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="row">
+                            <div class="col">
+                                <img id="mainphoto" src="img/main/akcija_ua.png" alt="" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="row">
+                            <div class="col">
+                                <img id="mainphoto" src="img/main/banner_new_ukr_3218.png" alt="" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="container" style="position: relative; margin-top: 70px;">
+                <p id="hit" class="text-sm-left" style="font-size: 42px;"> </p>
+                <div class="container" style="position: relative; margin-top: 10px;">
+                    <div class="owl-carousel owl-theme mb-5">
+                        <div class="item"> <img
+                                src="img/caru/diskretnaya_videokarta_nvidia_geforce_gtx_1080_ti_duke_oc_11_gb_gddr5x_352-bit_displayport_hdmi_dvi-44990788202380_small11.png"
+                                alt="" style="min-height: 300px;">
+                            <p style="font-size: 14px;">GeForce GTX 1080 Ti – це новітній флагманський графічний
+                                процесор NVIDIA, що втілює
+                                Мікроархитектуру Pascal, І 11 гігабайт найсучаснішою відеопам'яті GDDR5X</p>
+                            <button class="btn btn-primary">Купити</button> <span id="pric">8200₴</span>
+                        </div>
+                        <div class="item"> <img
+                                src="img/caru/copy_diskretnaya_videokarta_nvidia_geforce_gt_1050_2gb_gddr5-46188926324248_small11.jpg"
+                                alt="" style="min-height: 300px;">
+                            <p style="font-size: 14px;">GTX 1050 Ti – це високопродуктивна відеокарта, створена для гри
+                                в режимі нон-стоп. Вона відрізняється підвищеною надійністю, чому сприяють ретельні
+                                тести якості із залученням новітніх комп'ютерних ігор.</p>
+                            <button class="btn btn-primary">Купити</button> <span id="pric">5600₴</span>
+                        </div>
+                        <div class="item"> <img src="img/caru/Karta-graficzna-GeForce-GTX1650-Gaming-OC-4GB-DDR6.jpg"
+                                alt="" style="min-height: 300px; max-height:300px ;">
+                            <p style="font-size: 14px;"> Відеокарта NVIDIA GeForce GTX 1650 поки є наймолодшим
+                                представником лінійки Turing. Вона отримала в своє розпорядження 896 CUDA-ядер, 56
+                                текстурних і 32 растрових блоки.</p>
+                            <button class="btn btn-primary">Купити</button> <span id="pric">6599₴</span>
+                        </div>
+                        <div class="item"> <img src="img/caru/Gigabyte-Radeon-RX-5500-XT-Gaming-OC-8GB-GDDR6.jpg" alt=""
+                                style="max-height: 300px;">
+                            <p style="font-size: 14px;">RX 5500 XT - ігрова частота еталонної версії досягає 1717, а
+                                динамічна підвищується до 1845 МГц. Відеопам'ять представлена ​​4 або 8 ГБ GDDR6 з
+                                ефективною швидкістю 14 ГГц і 128-бітною шиною.
+                            </p>
+                            <button class="btn btn-primary">Купити</button> <span id="pric">35000₴</span>
+                        </div>
+                        <div class="item"> <img src="img/caru/4028310267_videokarta-geforce-rtx-800x800.jpg" alt=""
+                                style="max-height: 300px;">
+                            <p style="font-size: 14px;">GeForce RTX 2060 є рекомендованою EA відеокартою для
+                                розрахованого на багато користувачів екшену Anthem і дозволяє насолодитися грою з
+                                чудовою якістю графіки.</p>
+                            <button class="bti bt-primary">Купити</button> <span id="pric">6999₴</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="item" id="item">
+            <h3 class="sub-heading" style="font-size: 48px;">Суперські знижки</h3>
+            <h1 class="heading">Встигни замовити</h1>
+            <div class="box-container">
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/sells/12934309.webp" alt="" style="height: 235px;">
+                    <h3>Миша Razer DeathAdder Essential</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="price">1299₴</span> <span class="ms-4" id="pricetwo">1099₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="01" data-sb-product-name="Миша Razer DeathAdder Essential"
+                        data-sb-product-price="1099" data-sb-product-quantity="2"
+                        data-sb-product-img="img/sells/12934309.webp">Додати до кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/sells/24709344.webp" alt="" style="height: 235px;">
+                    <h3>Миша Hator Pulsar Wireless Black</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="price">999₴</span> <span class="ms-4" id="pricetwo">799₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="02"
+                        data-sb-product-name="Миша Hator Pulsar Wireless Black" data-sb-product-price="799"
+                        data-sb-product-quantity="1" data-sb-product-img="img/sells/24709344.webp">Додати до кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/sells/271978223.webp" alt="" style="height: 235px;">
+                    <h3>Гарнітура Razer Blackshark V2 X</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="price">2899₴</span> <span class="ms-4" id="pricetwo">2299₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="03" data-sb-product-name="Гарнітура Razer Blackshark V2 X"
+                        data-sb-product-price="2299" data-sb-product-quantity="1"
+                        data-sb-product-img="img/sells/271978223.webp">Додати до кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/sells/219494175.webp" alt="" style="height: 235px;">
+                    <h3>Ігрова приставка PS5 PlayStation 5</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="price">23000₴</span> <span class="ms-4" id="pricetwo">18999₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="04"
+                        data-sb-product-name="Ігрова приставка PS5 PlayStation 5" data-sb-product-price="18999"
+                        data-sb-product-quantity="1" data-sb-product-img="img/sells/219494175.webp">Додати до кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/sells/18750988.webp" alt="" style="height: 235px;">
+                    <h3>Nintendo Switch Lite Gray + Гра </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="price">19999₴</span> <span class="ms-4" id="pricetwo">14999₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="05" data-sb-product-name="Nintendo Switch Lite Gray + Гра"
+                        data-sb-product-price="14999" data-sb-product-quantity="1"
+                        data-sb-product-img="img/sells/18750988.webp">Додати до кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/sells/382310435.webp" alt="" style="height: 235px;">
+                    <h3>Фітнес-браслет Xiaomi Mi Smart Band</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="price">6999₴</span> <span class="ms-4" id="pricetwo">4999₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="06"
+                        data-sb-product-name="Фітнес-браслет Xiaomi Mi Smart Band" data-sb-product-price="4999"
+                        data-sb-product-quantity="1" data-sb-product-img="img/sells/382310435.webp">Додати до кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/sells/364623744.webp" alt="" style="height: 235px;">
+                    <h3 class="txt">Apple iPhone 15 128GB Black (MTP03)</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="price">42400₴</span> <span class="ms-4" id="pricetwo">35999₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="07"
+                        data-sb-product-name="Apple iPhone 15 128GB Black (MTP03)" data-sb-product-price="35999"
+                        data-sb-product-quantity="1" data-sb-product-img="img/sells/364623744.webp">Додати до кошику</a>
+                </div>
+                <div class="box">
+                    <a href="" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="" class="fas fa-eye" style="text-decoration: none;"></a>
+                    <img src="img/sells/302687408.webp" alt="" style="height: 235px;">
+                    <h3>УМБ Xiaomi Mi Power Bank 20000 mAh</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span id="price">999₴</span> <span class="ms-4" id="pricetwo">799₴</span>
+                    <div class="product__quantity" style="visibility: hidden;"></div>
+                    <a class="btn" data-sb-id-or-vendor-code="08"
+                        data-sb-product-name="УМБ Xiaomi Mi Power Bank 20000 mAh" data-sb-product-price="999"
+                        data-sb-product-quantity="1" data-sb-product-img="img/sells/302687408.webp">Додати до кошику</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="pop">
+            <h1 class="mt-4">Популярні запити</h1>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="container"
+                            style="border: 1px snow; background-color: rgb(223, 222, 222); border-radius: 20px;">
+                            <div class="row">
+                                <img class="col-6" src="img/pop/загружено.png" alt=""
+                                    style="width: 50px; height: 50px;">
+                                <p class="col-6"
+                                    style="font-size: 14px; position: relative; margin-top: 14px; margin-left: 30px;">
+                                    Відеокарти Nvidia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="container"
+                            style="border: 1px snow; background-color: rgb(223, 222, 222); border-radius: 20px;">
+                            <div class="row">
+                                <img class="col-6" src="img/pop/newpq-5.png" alt="" style="width: 50px; height: 50px;">
+                                <p class="col-6"
+                                    style="font-size: 14px; position: relative; margin-top: 14px; margin-left: 30px;">
+                                    Відеокарти AMD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="container"
+                            style="border: 1px snow; background-color: rgb(223, 222, 222); border-radius: 20px;">
+                            <div class="row">
+                                <img class="col-6" src="img/pop/newpq-5.png" alt="" style="width: 50px; height: 50px;">
+                                <p class="col-6"
+                                    style="font-size: 14px; position: relative; margin-top: 14px; margin-left: 30px;">
+                                    Процесори AMD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="container"
+                            style="border: 1px snow; background-color: rgb(223, 222, 222); border-radius: 20px;">
+                            <div class="row">
+                                <img class="col-6" src="img/pop/pq-2.png" alt="" style="width: 50px; height: 50px;">
+                                <p class="col-6"
+                                    style="font-size: 14px; position: relative; margin-top: 14px; margin-left: 70px;">
+                                    Intel</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mt-3">
+                        <div class="container"
+                            style="border: 1px snow; background-color: rgb(223, 222, 222); border-radius: 20px;">
+                            <div class="row">
+                                <img class="col-6" src="img/pop/pq-8.png" alt=""
+                                    style="width: 50px; height: 42px; margin-top: 10px;">
+                                <p class="col-6"
+                                    style="font-size: 14px; position: relative; margin-top: 14px; margin-left: 30px;">
+                                    Комп’ютери Nvidia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mt-3">
+                        <div class="container"
+                            style="border: 1px snow; background-color: rgb(223, 222, 222); border-radius: 20px;">
+                            <div class="row">
+                                <img class="col-6" src="img/pop/pq-8.png" alt=""
+                                    style="width: 50px; height: 42px; margin-top: 10px;">
+                                <p class="col-6"
+                                    style="font-size: 14px; position: relative; margin-top: 14px; margin-left: 30px;">
+                                    Комп’ютери AMD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mt-3">
+                        <div class="container"
+                            style="border: 1px snow; background-color: rgb(223, 222, 222); border-radius: 20px;">
+                            <div class="row">
+                                <img class="col-6" src="img/pop/pq-3.png" alt="" style="width: 50px; height: 50px;">
+                                <p class="col-6"
+                                    style="font-size: 14px; position: relative; margin-top: 14px; margin-left: 30px;">
+                                    Мат. плати Nvidia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mt-3">
+                        <div class="container"
+                            style="border: 1px snow; background-color: rgb(223, 222, 222); border-radius: 20px;">
+                            <div class="row">
+                                <img class="col-6" src="img/pop/pq-3.png" alt="" style="width: 50px; height: 50px;">
+                                <p class="col-6"
+                                    style="font-size: 14px; position: relative; margin-top: 14px; margin-left: 30px;">
+                                    Мат. плати AMD</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="aboutus" id="aboutus">
+
+            <h3 class="sub-heading mt-4" style="font-size: 3rem;">Про нас</h3>
+            <h1 class="heading mt-4">Чому обирають саме нас ?</h1>
+            <div class="row">
+                <div class="image col-md-6">
+                    <img id="logomain" src="img/logo/Комп’ютерій.png" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div class="content">
+                        <h3 style="font-size: 26px;">Найкращий інтернет-магазин України</h3>
+                        <p style="font-size: 14px;">У компанії працює 3 тисячі співробітників. Власний контакт-центр,
+                            який працює з 2005 року,
+                            консультує клієнтів компанії сім днів на тиждень з 09:00 до 19:00.</p>
+                        <p style="font-size: 14px;">
+                            Кілька років поспіль Комп’ютерій утримує свої позиції в рейтингах кращих роботодавців та
+                            компаній за версіями авторитетних видань. У 2023 році увійшов до топ-15
+                            компаній-роботодавців.
+                        </p>
+                        <div class="icons-container">
+                            <div class="icons">
+                                <i class="fas fa-shipping-fast"></i>
+                                <span style="font-size: 14px;">Безкоштовна доставка
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span style="font-size: 14px;">Низькі ціни</span>
+
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span style="font-size: 14px;">Сервіс 24/7</span>
+
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <span style="font-size: 14px;">Увага до кожного клієнта</span>
+                    </div>
+                    <a href="aboutus.html" class="bti mt-4">Більше про нас</a>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="container mt-3">
+                <h1 class="text-center mt-4" id="wk"
+                    style=" color:#27ae60; ; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 46px;">
+                    Маєте питання ?</h1>
+                <h2 class="text-center mt-2" id="wk"
+                    style=" font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    Напишіть нам на пошту</h2>
+                <div class="container">
+                    <form action="" id="tg">
+                        <div class="row">
+                            <div class="mb-3 col-6">
+                                <label for="exampleFormControlInput1" class="form-label"
+                                    style="font-size: 14px;">Електронна
+                                    пошта</label>
+                                <input type="email" name="email" class="form-control text" id="exampleFormControlInput1"
+                                    placeholder="name@example.com">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label mt-3"
+                                        style="font-size: 14px;">Введіть текст</label>
+                                    <textarea type="text" class="form-control" name="text"
+                                        id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div class="mb-3 col-6">
+                                <label for="exampleFormControlInput1" class="form-label"
+                                    style="font-size: 14px;">Ім'я</label>
+                                <input type="text" name="name" class="form-control" id="exampleFormControlInput1">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label mt-3"
+                                        style="font-size: 14px;">Номер телефона</label>
+                                    <input type="number" name="number" class="form-control"
+                                        id="exampleFormControlInput1" placeholder="+380...">
+                                </div>
+                            </div>
+
+                        </div>
+                        <button type="submit" class="bti bti-primary mt-3" onclick="Frstclick()">Надіслати</button>
+
+                    </form>
+                </div>
+
+        </section>
+    </main>
+    <footer style="background-color: rgb(44, 44, 44);">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-3 mt-3">
+                    <div class="container"><img src="img/logo/Комп’ютерій.png" alt="brand" id="brd">
+                    </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <ul class="kont" style="color: rgb(231, 230, 230); font-size: 14px;"> Режим роботи
+                        <li class="kont" style="list-style-type: ' ' ;"> Понеділок - П'ятниця: 9:00-20:00</li>
+                        <li class="kont" style="list-style-type: ' ';"> Субота - Неділя: 10:00 - 20:00</li>
+                        <hr style="width: 75%;">
+                        <p>Номера для зв'язку</p>
+                        <li style="list-style-type: none;">+380630134116</li>
+                        <li style="list-style-type: none;">+380068283863</li>
+                        <li style="list-style-type: none;">+380368238284</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <ul class="kont" style="color: rgb(231, 230, 230); font-size: 14px;"> Покупцям
+                        <a href="dost.html" style="text-decoration: none; color: rgb(231,230,230);">
+                            <li class="kont" style="list-style-type: ' ' ; padding: 3px;">Доставка</li>
+                        </a>
+                        <a href="opl.html" style="text-decoration: none; color: rgb(231,230,230);">
+                            <li class="kont" style="list-style-type: ' '; padding: 3px;">Оплата</li>
+                        </a>
+                        <a href="garant.html" style="text-decoration: none; color: rgb(231,230,230);">
+                            <li class="kont" style="list-style-type: ' ' ; padding: 3px;">Гарантії</li>
+                        </a>
+                        <a href="garant.html" style="text-decoration: none; color: rgb(231,230,230);">
+                            <li class="kont" style="list-style-type: ' '; padding: 3px;">Політика конфіденційності</li>
+                        </a>
+                        <a href="aboutus.html" style="text-decoration: none; color: rgb(231,230,230);">
+                            <li class="kont" style="list-style-type: ' ' ; padding: 3px;">Про нас</li>
+                        </a>
+                        <a href="" style="text-decoration: none; color: rgb(231,230,230);">
+                            <li class="kont" style="list-style-type: ' '; padding: 3px;">Контакти</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <ul class="kont" style="color: rgb(231, 230, 230); font-size: 14px;"> Про компанію
+                        <a href="#item" style="text-decoration: none; color: rgb(231,230,230);">
+                            <li class="kont" style="list-style-type: ' ' ; padding: 3px;"> Акції</li>
+                        </a>
+                        <a href="aboutus.html" style="text-decoration: none;  color: rgb(231,230,230);">
+                            <li class="kont" style="list-style-type: ' '; padding: 3px;"> Про нас</li>
+                        </a>
+                        <a href="" style="text-decoration: none; color: rgb(231,230,230);">
+                            <li class="kont" style="list-style-type: ' '; padding: 3px;">Контакти</li>
+                        </a>
+                        <a href="tradein.html" style="text-decoration: none; color: rgb(231,230,230);">
+                            <li class="kont" style="list-style-type: ' '; padding: 3px;"> Trade-In</li>
+                        </a>
+                    </ul>
+                </div>
+                <hr style="color: rgb(231,230,230);">
+                <div class="container">
+                    <div class="row">
+                        <div class="content col-md-6">
+                            <h4 class="mt-5 " style="font-size: 26px; color: rgb(231,230,230);">Шоу-рум в Запоріжжі <br>
+                                <h4 style="color: rgb(231,230,230);">вулиця Святого Миколая, 27</h4>
+                                </h3>
+                        </div>
+                        <iframe class="col-md-6"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d665.7991388665891!2d35.17922492942!3d47.80903756704218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc5e6d70840259%3A0x8f3c10c0b4163632!2z0LLRg9C70LjRhtGPINCh0LLRj9GC0L7Qs9C-INCc0LjQutC-0LvQsNGPLCAyNywg0JfQsNC_0L7RgNGW0LbQttGPLCDQl9Cw0L_QvtGA0ZbQt9GM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNjkwMDA!5e1!3m2!1suk!2sua!4v1702044673318!5m2!1suk!2sua"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="container">
+                        <p class="text-sm-center mt-4" style="font-size: 14px; color: rgb(150, 151, 151);">© Комп’ютерій
+                            2022-2023 |
+                            Всі права захищенні © 2023</p>
+                    </div>
+                </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="JS.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="smartbasket/css/smartbasket.min.css">
+
+    <div class="smart-basket__wrapper"></div>
+
+    <script src="./smartbasket/js/smartbasket.min.js"></script>
+
+    <script>
+        $(function () {
+            $('.smart-basket__wrapper').smbasket({
+                productElement: 'box',
+                buttonAddToBasket: 'btn',
+                productPrice: 'product__price-number',
+                productSize: 'product__size-element',
+
+                productQuantityWrapper: 'product__quantity',
+                smartBasketMinArea: 'fa-shopping-cart',
+                countryCode: '+380',
+                smartBasketCurrency: '₴',
+                smartBasketMinIconPath: './smartbasket/img/shopping-basket-wight.svg',
+
+                agreement: {
+                    isRequired: true,
+                    isChecked: true,
+                    isLink: 'privacy.html',
+                },
+                nameIsRequired: false,
+            });
+        });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>var swiper = new Swiper(".home-slider", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 7500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            loop: true
+        });</script>
+
+
+    <script>
+        const TOKEN = "6659307546:AAHHXS2_pGffMav_LyBIKp324gzdPzFtVL4";
+        const CHAT_ID = "-1002003381953";
+        const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+
+        document.getElementById('tg').addEventListener('submit', function (e) {
+
+            e.preventDefault();
+            let message = `<b>Заявка з сайту!</b>\n`;
+            message += `<b>Ім'я відправника:</b> ${this.name.value}\n`
+            message += `<b>Номер телефону:</b> ${this.number.value}\n`
+            message += `<b>Електронна пошта:</b> ${this.email.value}\n`
+            message += `<b>Текст повідомлення:</b> ${this.text.value}\n`
+
+
+            axios.post(URI_API, {
+                chat_id: CHAT_ID,
+                parse_mode: `html`,
+                text: message
+            })
+        })
+    </script>
+
+
+    <div id="back_to_top" class="back-to-top">
+        <svg xmlns="http://www.w3.org/2000/svg" style="transform: rotate(270deg);" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z" />
+        </svg>
+        <script>myfunc();</script>
+</body>
+
+</html>
